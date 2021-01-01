@@ -28,3 +28,7 @@ Our ESP-01 consume 80mah in average (or at least this is what the datasheet says
 The formula to calculate capacitive reactance is:
 
 ![](https://github.com/PaoloReyes254/ESP-01-LOW-COST-WIFI-REPEATER/blob/main/assets/CapacitiveReactance.PNG)
+
+As I live in Mexico we have 127v 60hz AC current and to get the capacitive reactance we need the capacity of the capacitor and the frequency of the country, but as I don't know which is the capacitance to get 200mah output, I can solve for the resistance that will be the capacitive reactance in ohm's law, such as follow:
+
+![](https://github.com/PaoloReyes254/ESP-01-LOW-COST-WIFI-REPEATER/blob/main/assets/Resistance.PNG)
