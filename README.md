@@ -46,3 +46,15 @@ And then if we solve for the capacity in our first equation we get:
 ![](https://github.com/PaoloReyes254/ESP-01-LOW-COST-WIFI-REPEATER/blob/main/assets/CapacitorCapacity2.PNG)
 
 After all these equations we get that the capacitor needed to get 200mah 3.3v output is of 4.2uF, but I was looking and I saw those capacitor does not exist, so we can use two 2.2uF capacitors in parallel to get 4.4uF and a current of 210mah, so, with all this data we should be able to create our power supply and then easily connect it to the ESP-01.
+
+This is the final diagram for a 3.3v 210mah-160mah power supply:
+
+![](https://scontent.fmex27-1.fna.fbcdn.net/v/t1.15752-9/135467029_243412684105134_6994814992267379147_n.png?_nc_cat=109&ccb=2&_nc_sid=ae9488&_nc_eui2=AeGDWyKBADspPlTqYQLajeLMkeQK4GO6JraR5ArgY7omtvkXRm_uwGNl3hG0r0WymZrXm_8gJuYD2M3D2FETrB6X&_nc_ohc=8ERbvVWNXH0AX9DRDaB&_nc_ht=scontent.fmex27-1.fna&oh=363fd363d01b1011e9c332aea670c27d&oe=60129AD4)
+
+To create the product we will need an ESP-01 and the total price of the wifi repeater is 50 pesos for all the components in aliexpress without taking in consideration the shipment.
+
+![](https://github.com/PaoloReyes254/ESP-01-LOW-COST-WIFI-REPEATER/blob/main/assets/AliexpressCapacitor.PNG)
+
+Another alternative is to buy a transformer power supply in aliexpress to replace ours and the total cost in this case will be 60 pesos without shipment, the only thing we have to think about is shipments and check which option is better for us.
+
+![](https://github.com/PaoloReyes254/ESP-01-LOW-COST-WIFI-REPEATER/blob/main/assets/Transformador.PNG)
