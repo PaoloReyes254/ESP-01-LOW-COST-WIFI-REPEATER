@@ -27,4 +27,4 @@ Our ESP-01 consume 80mah in average (or at least this is what the datasheet says
 
 The formula to calculate capacitive reactance is:
 
-![](assets/CapacitiveReactance.png)
+![](https://github.com/PaoloReyes254/ESP-01-LOW-COST-WIFI-REPEATER/blob/main/assets/CapacitiveReactance.PNG)
