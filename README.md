@@ -24,7 +24,7 @@ For all those reasons I think the best way to approach this is by creating a cap
 To create our capacitive power supply we must use as its name says a capacitor that will limit the current that flows in the circuit, then we will have to transform that reduced AC current into a stable DC current, we will do this thanks to 4 diodes and an electrolytic capacitor to stabilize that current, in parallel with the capacitor we will use a zener diode to limit and maintain a stable voltage and then we could use a 3.3v ams1117 regulator with some capacitors or another zener diode and capacitors to keep it cheap.
 
 Our ESP-01 consume 80mah in average (or at least this is what the datasheet says) I have an ESP-32 with a small LED which in fact consume much more than an ESP-01 and I got 90mah readings if my ESP-32 is working as a wifi server.
-1[]()
+![](https://github.com/PaoloReyes254/ESP-01-LOW-COST-WIFI-REPEATER/blob/main/assets/Readings.jpg?raw=true)
 but as we said a 200mah power supply must be enouugh for all our requirements. To accomplish this we must calculate something called capacitive reactance which will give us the impedance that our capacitor produce in ohms and then with ohm's law we should be able to calculate the maximum current that our circuit will produce.
 
 The formula to calculate capacitive reactance is:
@@ -37,4 +37,4 @@ As I live in Mexico we have 127v 60hz AC current and to get the capacitive react
 
 If we replace with our data we get:
 
-![]()
+![](https://github.com/PaoloReyes254/ESP-01-LOW-COST-WIFI-REPEATER/blob/main/assets/Resistance.PNG?raw=true)
