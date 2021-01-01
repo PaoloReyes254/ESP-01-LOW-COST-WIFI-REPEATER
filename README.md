@@ -25,7 +25,7 @@ To create our capacitive power supply we must use as its name says a capacitor t
 
 Our ESP-01 consume 80mah in average (or at least this is what the datasheet says) I have an ESP-32 with a small LED which in fact consume much more than an ESP-01 and I got 90mah readings if my ESP-32 is working as a wifi server.
 ![](https://github.com/PaoloReyes254/ESP-01-LOW-COST-WIFI-REPEATER/blob/main/assets/Readings.jpg)
-but as we said a 200mah power supply must be enouugh for all our requirements. To accomplish this we must calculate something called capacitive reactance which will give us the impedance that our capacitor produce in ohms and then with ohm's law we should be able to calculate the maximum current that our circuit will produce.
+But as we said a 200mah power supply must be enough for all our requirements. To accomplish this we must calculate something called capacitive reactance which will give us the impedance that our capacitor produce in ohms and then with ohm's law we should be able to calculate the maximum current that our circuit will produce.
 
 The formula to calculate capacitive reactance is:
 
@@ -38,3 +38,9 @@ As I live in Mexico we have 127v 60hz AC current and to get the capacitive react
 If we replace with our data we get:
 
 ![](https://github.com/PaoloReyes254/ESP-01-LOW-COST-WIFI-REPEATER/blob/main/assets/CapacitiveReactanceValue.PNG)
+
+And then if we solve for the capacity in our first equation we get:
+
+![](https://github.com/PaoloReyes254/ESP-01-LOW-COST-WIFI-REPEATER/blob/main/assets/CapacitorCapacity1.PNG)
+
+![](https://github.com/PaoloReyes254/ESP-01-LOW-COST-WIFI-REPEATER/blob/main/assets/CapacitorCapacity2.PNG)
